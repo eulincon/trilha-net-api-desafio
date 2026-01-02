@@ -56,3 +56,16 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+1> USE Organizador
+2> GO
+3> EXEC sp_helpindex 'NomeDaSuaTabela'
+4> GO
+
+SELECT name FROM sys.tables
+GO
+
+SELECT name FROM sys.databases
+GO
+
+/opt/mssql-tools18/bin/sqlcmd -S db -U sa -P 'Your_password123' -C
